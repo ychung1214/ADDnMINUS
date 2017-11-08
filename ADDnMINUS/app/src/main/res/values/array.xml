@@ -2,20 +2,20 @@
 <resources>
 
     <array name="addArray1">
-        <item>@drawable/notebook64</item>
-        <item>@drawable/notebook64</item>
-        <item>@drawable/notebook64</item>
-        <item>@drawable/notebook64</item>
-        <item>@drawable/notebook64</item>
+        <item>@drawable/notebook128</item>
+        <item>@drawable/notebook128</item>
+        <item>@drawable/notebook128</item>
+        <item>@drawable/notebook128</item>
+        <item>@drawable/notebook128</item>
 
     </array>
     <array name="addArray2">
-        <item>@drawable/maple64</item>
-        <item>@drawable/maple64</item>
-        <item>@drawable/maple64</item>
-        <item>@drawable/maple64</item>
-        <item>@drawable/maple64</item>
-        <item>@drawable/maple64</item>
+        <item>@drawable/maple128</item>
+        <item>@drawable/maple128</item>
+        <item>@drawable/maple128</item>
+        <item>@drawable/maple128</item>
+        <item>@drawable/maple128</item>
+        <item>@drawable/maple128</item>
     </array>
     <array name="minusArray1">
         <item>@drawable/notebook_10</item>
