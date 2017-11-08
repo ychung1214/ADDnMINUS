@@ -45,7 +45,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center_vertical"
-                            android:text="阿祥上午在操場檢了18片楓葉，做勞作用去5片，請問：阿祥剩下幾片楓葉？"
+                            android:text="阿祥上午在操場檢了21片楓葉，做勞作用去6片，請問：阿祥剩下幾片楓葉？"
                             android:textColor="#000000"
                             android:layout_marginTop="10dp"
                             android:textSize="35dp" />
@@ -56,7 +56,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center_vertical"
-                            android:text="=> 算式：18 - 5 = 13 (本)"
+                            android:text="=> 算式：21 - 6 = 15 (片)"
                             android:textColor="#000000"
                             android:textSize="35dp" />
                     </LinearLayout>

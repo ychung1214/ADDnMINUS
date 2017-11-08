@@ -107,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/notebook128" />
+                        app:srcCompat="@drawable/notebook128_10" />
 
                     <ImageView
                         android:id="@+id/i1"
