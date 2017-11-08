@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.au.addnminus.add1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:onClick="onClick"
+                        android:text="回
+選
+單"
+                        android:textSize="30dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ba"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="小花的書櫃裡原有32本書，被好朋友芬芬借走6本，請問：現在書櫃裡還有幾本書？ (小提示:把6本書移到黃色區塊!)"
+                            android:textColor="#000000"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/x"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="=> 算式：32 - 6 = 26 (本)"
+                            android:textColor="#000000"
+                            android:textSize="35dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/prompt"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="#ffffff"
+                        android:gravity="right"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/xx"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/area1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="#b7fcfc"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/area2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="#fef099"
+                    android:orientation="horizontal"
+                    ></LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
